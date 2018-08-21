@@ -98,15 +98,19 @@ a {
 }
 
 .profile {
-  display: flex;
-  clear: both;
+  display: inline;
+  float: left;
   padding-top: 3%;
   padding-bottom: 2%;
 }
 
+.selfie {
+  padding: 0 10px 10px 0;
+}
+
 #Bio {
   margin: 0;
-  width: 800px;
+  width: 100%;
   padding-left: 18px;
   padding-right: 18px;
   line-height: 30px;
@@ -272,6 +276,11 @@ input[type=submit] {
     height: 50px;
     border-bottom: 2px solid #cccccc;
   }
+
+  #Bio {
+    font-size: 3.5vw;
+  }
+
   li {
     padding: 0;
   }
