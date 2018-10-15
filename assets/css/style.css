@@ -1,7 +1,10 @@
 html, body {
   height: 100%;
   font-family: 'Handlee', cursive;
-  background-image: url("./assets/images/bodybg.png");
+}
+
+.backImg {
+  background: url(./assets/images/bodybg.png);
 }
 
 .borders {
